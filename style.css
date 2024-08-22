@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "epilogue";
+}
+
+.web-interface {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  margin-top: -50px;
+}
+
+#logo {
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 60px;
+  padding-left: 60px;
+  padding-right: 500px;
+  list-style: none;
+}
+
+#features {
+  display: flex;
+  align-items: center;
+}
+
+#company {
+  display: flex;
+  align-items: center;
+}
+
+.login-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-left: -70px;
+}
+
+li,
+a,
+button {
+  text-decoration: none;
+  color: rgb(101, 91, 91);
+  font-weight: 500;
+}
+
+#arrow {
+  rotate: 180deg;
+  margin-left: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  width: 1000px;
+}
+
+#right img {
+  margin-top: 10px;
+  margin-right: -20px;
+  width: 310px;
+  height: 390px;
+}
+
+#left {
+  margin-left: 100px;
+}
+
+#left h1 {
+  margin-top: 90px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#left h3 {
+  font-size: 40px;
+}
+
+#left p {
+  margin-top: 30px;
+  line-height: 25px;
+  max-width: 400px;
+}
+
+#left h2 {
+  color: white;
+  background: black;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 110px;
+  margin-top: 30px;
+}
+
+.bottom-images {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#register {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1.5px solid rgb(111, 103, 103);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 80px;
+  margin-right: 100px;
+}
+
+/* HOOVERS */
+#left h2:hover {
+  background: white;
+  color: black;
+}
+
+#arrow:hover {
+  rotate: 0deg;
+  background: white;
+}
+
