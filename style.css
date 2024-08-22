@@ -147,3 +147,12 @@ button {
   background: white;
 }
 
+a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+#register {
+    border: 2px solid rgb(111, 103, 103); 
+}
+
